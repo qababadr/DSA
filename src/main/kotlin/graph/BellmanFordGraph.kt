@@ -28,9 +28,9 @@ class BellmanFordGraph(
      *
      * - Best Case Complexity O(E)
      *
-     * - Average Case Complexity	O(VE)
+     * - Average Case Complexity O(VE)
      *
-     * - The Worst Case Complexity	O(VE)
+     * - The Worst Case Complexity O(VE)
      *
      * Space Complexity O(V).
      */

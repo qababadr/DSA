@@ -6,6 +6,7 @@ import graph.Graph
 import linkedlist.LinkedList
 import linkedlist.Node
 import queue.SimpleQueue
+import sort.IntroSort
 import stack.SimpleStack
 import tree.BinaryNode
 import tree.TreeNode
@@ -282,6 +283,79 @@ fun main(){
     graphBF.edge[4].w = 2;
 
     graphBF.bfAlgo(graphBF, 0)// 0 is the source vertex
+
+    println("---------------------------")
+    val bubbleSortData = arrayOf(-2, 45, 0, 11, -9)
+
+    println("Sorted Array in Ascending Order:")
+
+    bubbleSortData.bubbleSort()
+
+    println(bubbleSortData.joinToString(separator = ","))
+
+    println("---------------------------")
+
+    val selectSortData = arrayOf(20, 12, 10, 15, 2)
+
+    println("Sorted Array in Ascending Order: ")
+
+    selectSortData.selectionSort()
+
+    println(selectSortData.joinToString(separator = ","))
+
+    println("---------------------------")
+
+    val insertionSortData = arrayOf(9, 5, 1, 4, 3 )
+
+    println("Sorted Array in Ascending Order: ")
+
+    insertionSortData.insertionSort()
+
+    println(insertionSortData.joinToString(separator = ","))
+
+    println("---------------------------")
+
+    val numbers = mutableListOf(38,27,43,3,9,82,10)
+
+    val sortedList = numbers.mergeSort()
+
+    println("Unsorted: $numbers")
+
+    println("Sorted: $sortedList")
+
+    println("---------------------------")
+    println("Original list:")
+    val quickSortData = listOf(2, 4, 7, 3, 6, 9, 5, 1, 0)
+    println(quickSortData)
+    println("Ordered list:")
+    println(quicksort(quickSortData))
+    println("---------------------------")
+    val intro  = IntroSort()
+    val arr = intArrayOf(5,1,4,2,9,6)
+    println(arr.contentToString())
+    intro.sort(arr)
+    println(arr.contentToString())
+    println("---------------------------")
+    val shellSortData = intArrayOf(23, 12, 1, 8, 34, 54, 2, 3)
+    println("Array before sorting")
+    println(shellSortData.contentToString())
+    shellSortData.shellSort()
+
+    println("Array after sorting")
+    println(shellSortData.contentToString())
+    println("---------------------------")
+    val array = arrayOf(0, 1, 2, 2, 2, 2, 5, 8, 4, 7, 0, 6)
+    println("Before sorting : ")
+    println(array.contentToString())
+    array.cycleSort()
+    println("Array after sorting")
+    println(array.contentToString())
+    println("---------------------------")
+
+    val inArr = intArrayOf(4, 65, 2, -31, 0, 99, 2, 83, 782, 1)
+
+    inArr.cocktailSort()
+    println(inArr.contentToString())
 
     println("---------------------------")
 }
