@@ -212,25 +212,24 @@ fun List<Int>.mergeSort(): List<Int> {
  *
  * Stability No
  *
- * @param items [List]
  * @return [List]
  */
-fun quicksort(items: List<Int>): List<Int> {
-    if (items.count() < 2) {
-        return items
+fun List<Int>.quicksort(): List<Int> {
+    if (count() < 2) {
+        return this
     }
-    val pivot = items[items.count() / 2]
+    val pivot = this[count() / 2]
 
-    val equal = items.filter { it == pivot }
+    val equal = filter { it == pivot }
 //    println("pivot value is : "+equal)
 
-    val less = items.filter { it < pivot }
+    val less = filter { it < pivot }
 //    println("Lesser values than pivot : "+less)
 
-    val greater = items.filter { it > pivot }
+    val greater = filter { it > pivot }
 //    println("Greater values than pivot : "+greater)
 
-    return quicksort(less) + equal + quicksort(greater)
+    return less.quicksort() + equal + greater.quicksort()
 }
 
 /**

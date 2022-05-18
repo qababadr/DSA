@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efca0225-ac63-4225-ac49-ce28dd61eaaf" name="Changes" comment="Added following implementations:&#10;- AvlTree&#10;- Bellman ford algorithm &#10;- Binary search tree&#10;- Graph &#10;- Queue&#10;- Stack">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sort/IntroSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sort/sortAlgorithmExtensions.kt" afterDir="false" />
+    <list default="true" id="efca0225-ac63-4225-ac49-ce28dd61eaaf" name="Changes" comment="Added some sorting algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/graph/BellmanFordGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/graph/BellmanFordGraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/sortAlgorithmExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/sortAlgorithmExtensions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652615198423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added some sorting algorithms">
+      <created>1652886342756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652886342757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Linked list" />
     <MESSAGE value="Added following implementations:&#10;- AvlTree&#10;- Bellman ford algorithm &#10;- Binary search tree&#10;- Graph &#10;- Queue&#10;- Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added following implementations:&#10;- AvlTree&#10;- Bellman ford algorithm &#10;- Binary search tree&#10;- Graph &#10;- Queue&#10;- Stack" />
+    <MESSAGE value="Added some sorting algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some sorting algorithms" />
   </component>
 </project>

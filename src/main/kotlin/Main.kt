@@ -328,7 +328,7 @@ fun main(){
     val quickSortData = listOf(2, 4, 7, 3, 6, 9, 5, 1, 0)
     println(quickSortData)
     println("Ordered list:")
-    println(quicksort(quickSortData))
+    println(quickSortData.quicksort())
     println("---------------------------")
     val intro  = IntroSort()
     val arr = intArrayOf(5,1,4,2,9,6)
